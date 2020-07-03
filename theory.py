@@ -44,19 +44,52 @@ celtics = sports[2]
 # print(celtics)
 # print('The Celtics play ' + celtics + '.')
 
-name = "John Smith"
+name = 'John Smith'
 # print(name[0])
 # print(name[5])
 # print(name[0:4])
 
 # take 2 variables and create a full name
-first_name = "John"
-last_name = "Smith"
+first_name = 'John'
+last_name = 'Smith'
 # print(first_name + ' ' + last_name)
 # or:
 full_name = first_name + ' ' + last_name
 # print(full_name)
 
-print('First Name: {} \nLast Name: {}'.format(first_name, last_name))
+# print('First Name: {} \nLast Name: {}'.format(first_name, last_name))
+
+#Conditional Statements
+# x = 3
+x = 7
+# x = 5
+y = 5
+
+# if x < y:
+#     print('x is less than y.')
+# elif x == y:
+#     print('The values are the same.')
+# elif x > y:
+#     print('x is greater than y.')
+# else:
+#     print('x is NOT less than y.')
 
 
+# flag = True
+
+#nothing is printed out:
+# flag = False
+# if flag:
+#     print('The flag is false')
+
+# flag = False
+# if not flag:
+#     print('The flag is false.')
+
+x = 11
+y = 3
+if (x < 10 or y < 5) and y >= 3:
+# if x < 10 and y < 5:
+    print('This worked.')
+else:
+    print('It did not work.')
