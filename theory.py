@@ -93,3 +93,44 @@ if (x < 10 or y < 5) and y >= 3:
     print('This worked.')
 else:
     print('It did not work.')
+
+
+# ans = input('What is your name? ')
+# print('Hello there {}!'.format(ans))
+
+# ans = input('What is your favorite number? ')
+# ans = int(ans)
+
+# if ans < 10:
+#     print('Your favorite number is {}.'.format(ans))
+# else:
+#     print('Your number is greater than 10.')
+
+# for i in range(10):
+#     print(i)
+
+
+# for sport in sports:
+#     if sport == 'Baseball':
+#         print('The season starts soon!')
+#     else:
+#         print(sport.lower())
+
+# for i in range(len(sports)):
+#     sports[i] = sports[i].lower()
+#     print(sports[i])
+#
+# sports[3] = 'soccer'
+# print(sports)
+
+# flag = False
+# while flag == False:
+while True:
+    ans = input("Type 'quit' to stop playing: ")
+
+    if ans == 'quit':
+        print('Thanks for playing!')
+        # flag = True
+        break
+    else:
+        print('You typed: {}'.format(ans))
